@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="227.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jogodavelha.FXMLDocumentController">
+   <children>
+      <Line endX="100.0" layoutX="113.0" layoutY="84.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="113.0" layoutY="171.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="76.0" layoutY="128.0" rotate="90.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="155.0" layoutY="128.0" rotate="90.0" startX="-100.0" />
+      <Label fx:id="a1" layoutX="-1.0" layoutY="1.0" onDragDetected="#colocarLetra" onMouseClicked="#colocarLetra" prefHeight="83.0" prefWidth="75.0" />
+      <Label fx:id="a2" layoutX="77.0" layoutY="1.0" onMouseClicked="#colocarLetra" prefHeight="83.0" prefWidth="75.0" />
+      <Label fx:id="a3" layoutX="155.0" layoutY="1.0" onMouseClicked="#colocarLetra" prefHeight="83.0" prefWidth="75.0" />
+      <Label fx:id="b3" layoutX="155.0" layoutY="87.0" onMouseClicked="#colocarLetra" prefHeight="83.0" prefWidth="75.0" />
+      <Label fx:id="c3" layoutX="155.0" layoutY="170.0" onMouseClicked="#colocarLetra" prefHeight="83.0" prefWidth="75.0" />
+      <Label fx:id="b1" layoutX="-1.0" layoutY="87.0" onMouseClicked="#colocarLetra" prefHeight="83.0" prefWidth="75.0" />
+      <Label fx:id="c1" layoutX="-1.0" layoutY="170.0" onMouseClicked="#colocarLetra" prefHeight="83.0" prefWidth="75.0" />
+      <Label fx:id="b2" layoutX="77.0" layoutY="84.0" onMouseClicked="#colocarLetra" prefHeight="83.0" prefWidth="75.0" />
+      <Label fx:id="c2" layoutX="77.0" layoutY="170.0" onMouseClicked="#colocarLetra" prefHeight="83.0" prefWidth="75.0" />
+   </children>
+</Pane>
