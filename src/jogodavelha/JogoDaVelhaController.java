@@ -1,5 +1,6 @@
 package jogodavelha;
 
+
 import javafx.scene.input.MouseEvent;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -9,8 +10,9 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
 
-public class FXMLDocumentController implements Initializable {
+public class JogoDaVelhaController implements Initializable {
 
     @FXML
     private Pane janela;
@@ -104,8 +106,10 @@ public class FXMLDocumentController implements Initializable {
         if (nJogada % 2 != 0) {
             label.setText("X");
             jogador.setText("O");
+            label.setTextFill(Color.BLACK);
         } else {
             label.setText("O");
+            label.setTextFill(Color.MAGENTA);
             jogador.setText("X");
         }
         label.setStyle("-fx-font-size: 40px; -fx-alignment: center;");
